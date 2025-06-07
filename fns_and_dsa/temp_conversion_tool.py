@@ -35,7 +35,7 @@ def main():
             print(f"{temperature:.2f}°C is {fahrenheit:.2f}°F")
 
     except ValueError as e:
-        print("Error:", e)
+        print("Invalid temperature. Please enter a numeric value.")
 
 if __name__ == "__main__":
     main()
