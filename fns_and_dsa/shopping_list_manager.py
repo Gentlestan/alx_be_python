@@ -31,7 +31,7 @@ def main():
             if shopping_list:
                 print("\nYour Shopping List:")
                 for index, item in enumerate(shopping_list, start=1):
-                print(f"{index}. {item}")
+                    print(f"{index}. {item}")
             else:
                 print("Your shopping list is empty.")
 
