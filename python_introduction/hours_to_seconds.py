@@ -1,4 +1,4 @@
-hours = int(input("Enter the number of hours: "))
+hours = 2
 seconds = hours * 3600
 hour_label = "hour" if hours == 1 else "hours"
 

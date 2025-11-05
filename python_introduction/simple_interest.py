@@ -1,6 +1,6 @@
-principal = int(input("Enter the principal amount: "))
-rate = float(input("Enter the rate of interest in (%): "))
-time = float(input("Enter the time (in years): "))
+principal = 1000
+rate = 0.05
+time = 3
 
-simple_interest = (principal * rate * time) / 100
+simple_interest = (principal * rate * time) 
 print("The simple interest is:", simple_interest)
