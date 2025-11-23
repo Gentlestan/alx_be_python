@@ -1,28 +1,22 @@
-def perform_operation(num1, num2, operation,):
-    
-    #Addition
+def perform_operation(num1, num2, operation):
+    # Addition
     if operation == "add":
         return num1 + num2
-    
-    #Subtraction
+
+    # Subtraction
     elif operation == "subtract":
         return num1 - num2
-    
-    #multiplication
-    elif operation == "multiplication":
+
+    # Multiplication
+    elif operation == "multiply":
         return num1 * num2
-    
-    #division
-    elif operation == "division":
+
+    # Division
+    elif operation == "divide":
         if num2 == 0:
             return "division by zero"
         return num1 / num2
-    
-    else:"return invalid operations"
-            
-        
-         
-    
-    
-    
-    
+
+    # Invalid operation
+    else:
+        return "invalid operation"
